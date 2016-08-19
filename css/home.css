@@ -1,0 +1,66 @@
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+body {
+  background-image: url("../imgs/background.jpg");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar.transparent.navbar-inverse {
+   margin-top: 25px;
+   border-width: 0px;
+   -webkit-box-shadow: 0px 0px;
+   box-shadow: 0px 0px;
+   background-color: rgba(0,0,0,0.0);
+   background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    border: solid 3px white;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+div h1 {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+}
+
+div.container ul {
+  text-align: center;
+  list-style:none;
+}
+
+div.container ul li {
+  display:inline;
+}
+
+div.container ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  border: solid 3px #fff;
+  margin: 20px;
+  font-size: 35px;
+}
