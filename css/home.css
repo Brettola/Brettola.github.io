@@ -47,6 +47,22 @@ div h1 {
   font-size: 100px;
 }
 
+div h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+div img {
+  width: 100%;
+}
+
+div p {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
 div.container ul {
   text-align: center;
   list-style:none;
