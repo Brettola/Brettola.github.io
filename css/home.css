@@ -41,6 +41,35 @@ body {
     color: #fff;
 }
 
+.nav a:before, a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  background: #fff;
+}
+
+.nav a:before {
+  left: 0;
+}
+
+.nav a:after {
+  right: 0;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav a:hover:before {
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav a:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s ease-in-out;
+}
+
 .container {
   padding-top: 100px;
   padding-bottom: 200px;
@@ -86,4 +115,5 @@ div.container ul li a {
   border: solid 3px #fff;
   margin: 20px;
   font-size: 35px;
+  cursor: pointer;
 }
