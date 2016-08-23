@@ -12,6 +12,8 @@
 body {
   background-image: url("../imgs/background.jpg");
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -37,6 +39,11 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: #fff;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 div h1 {

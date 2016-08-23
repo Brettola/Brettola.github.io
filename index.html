@@ -14,21 +14,22 @@
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
-    <nav class="navbar transparent navbar-inverse">
+    <nav class="navbar transparent navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">BJR</a>
+          <a class="navbar-brand" href="#header">BJR</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">HOME</a></li>
-          <li><a href="about.html" class="">ABOUT</a></li>
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#port">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="container theme-showcase" role="main">
+    <div id="header" class="container theme-showcase" role="main">
       <h1>DEVELOPER</h1>
       <ul>
         <li><a href="portfolio.html">PORTFOLIO</a></li>
@@ -36,7 +37,73 @@
       </ul>
     </div>
 
+    <div id="about" class="container theme-showcase" role="main">
+      <h1>ABOUT ME</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus massa ut rutrum vehicula. Phasellus venenatis, nulla quis malesuada commodo, mauris massa placerat erat, sit amet consequat dui justo sit amet orci. Pellentesque dictum metus vel est elementum, sed pretium urna molestie. Aenean lacus nisl, tempor ac facilisis non, faucibus.</p>
+    </div>
+
+    <div id="resume" class="container theme-showcase" role="main">
+      <h1>RESUME</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Objective</h2>
+
+        </div>
+        <div class="col-md-4">
+          <h2>Education</h2>
+
+        </div>
+        <div class="col-md-4">
+          <h2>Experience</h2>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Skills</h2>
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+    </div>
+
+    <div id="port" class="container theme-showcase" role="main">
+      <h1>PORTFOLIO</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Fire Squad Fresno</h2>
+          <a href="#"><img src="imgs/Sample1.png" alt="S1"></a>
+        </div>
+        <div class="col-md-4">
+          <h2>Title 2</h2>
+        </div>
+        <div class="col-md-4">
+          <h2>Title 3</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="container theme-showcase" role="main">
+      <h1>CONTACT ME</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Email</h2>
+          <p>brett.rayburn12@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Phone</h2>
+          <p>(559)392-9528</p>
+        </div>
+      </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>
