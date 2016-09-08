@@ -50,6 +50,10 @@ body {
   background: #fff;
 }
 
+.navbar-nav {
+  padding-top:25px;
+}
+
 .nav a:before {
   left: 0;
 }
