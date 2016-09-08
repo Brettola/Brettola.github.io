@@ -70,6 +70,15 @@ body {
   transition: 0s;
 }
 
+.navbar-brand {
+  padding: 0 15px;
+  height: 0px;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
 
 .container {
   padding-top: 100px;
